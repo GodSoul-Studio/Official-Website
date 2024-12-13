@@ -44,7 +44,7 @@ jobs:
       #     npm install
       #     node index.mjs
       - name: Install npm packages
-        run: npm install
+        run: npm install --legacy-peer-deps
       - name: Build Pages
         run: npm run build
       # - name: Build Email
