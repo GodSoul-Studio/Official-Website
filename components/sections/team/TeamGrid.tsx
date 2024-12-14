@@ -11,8 +11,21 @@ const team = [
     // role: "",
     bio: "擁有15年軟體開發經驗，專精於系統架構設計與團隊管理",
     avatar:
-      "https://res.cloudinary.com/dxlsbq2q8/image/upload/v1734082229/sguihcdojpdy08bw7k23.webp",
+      "https://res.cloudinary.com/dxlsbq2q8/image/upload/v1734160062/teams/ua5rdzx1kxun7ijycsgr.webp",
     initials: "糖豆魚 PTD",
+    social: {
+      github: "#",
+      twitter: "#",
+      linkedin: "#",
+    },
+  },
+  {
+    name: "小飛 Lulucute",
+    // role: "",
+    bio: "擁有15年軟體開發經驗，專精於系統架構設計與團隊管理",
+    avatar:
+      "https://res.cloudinary.com/dxlsbq2q8/image/upload/v1734160063/teams/ymsk989arzxjgdneuwt2.jpg",
+    initials: "小飛 Lulucute",
     social: {
       github: "#",
       twitter: "#",
@@ -37,7 +50,7 @@ const team = [
     // role: "",
     bio: "React 與 Vue.js 專家，致力於創造絕佳的使用者體驗",
     avatar:
-      "https://res.cloudinary.com/dxlsbq2q8/image/upload/v1734082134/nracaizhy2k50vmogek6.png",
+      "https://res.cloudinary.com/dxlsbq2q8/image/upload/v1734160070/teams/ci92d3ssiqrlf5quns2l.png",
     initials: "李",
     social: {
       github: "#",
@@ -102,9 +115,9 @@ export function TeamGrid() {
                   <h3 className="text-xl font-semibold mt-4">{member.name}</h3>
                   {/* <p className="text-primary font-medium">{member.role}</p> */}
                 </div>
-                <p className="text-muted-foreground text-sm text-center mb-6">
+                {/* <p className="text-muted-foreground text-sm text-center mb-6">
                   {member.bio}
-                </p>
+                </p> */}
                 {/* <div className="flex justify-center space-x-4">
                   <a
                     href={member.social.github}
