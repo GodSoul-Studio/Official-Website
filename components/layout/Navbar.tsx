@@ -31,7 +31,7 @@ export function Navbar() {
           >
             {/* <Code2 className="w-6 h-6" /> */}
             <Image
-              src="/logo.png" // Path relative to the `public` folder
+              src="./logo.png" // Path relative to the `public` folder
               alt="靈魂之神工作室 Logo"
               width={35}
               height={35}
