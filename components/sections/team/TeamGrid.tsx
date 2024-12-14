@@ -50,7 +50,7 @@ const team = [
     // role: "",
     bio: "React 與 Vue.js 專家，致力於創造絕佳的使用者體驗",
     avatar:
-      "https://res.cloudinary.com/dxlsbq2q8/image/upload/v1734160070/teams/ci92d3ssiqrlf5quns2l.png",
+      "https://res.cloudinary.com/dxlsbq2q8/image/upload/v1734161874/teams/xxihnvdl6ruvg3ahkkkj.png",
     initials: "李",
     social: {
       github: "#",
