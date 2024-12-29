@@ -11,8 +11,8 @@
     @apply bg-background text-foreground;
   } */
 
-  /* Theme transition animations */
-  /* *, *::before, *::after {
+/* Theme transition animations */
+/* *, *::before, *::after {
     transition: background-color 0.5s ease-in-out,
                 border-color 0.5s ease-in-out,
                 color 0.5s ease-in-out,
@@ -71,8 +71,6 @@
   }
 } */
 
-
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -87,14 +85,12 @@
   }
 
   /* Theme transition animations */
-  *, *::before, *::after {
-    transition: background-color 0.5s ease-in-out,
-                border-color 0.5s ease-in-out,
-                color 0.5s ease-in-out,
-                fill 0.5s ease-in-out,
-                stroke 0.5s ease-in-out,
-                opacity 0.5s ease-in-out,
-                box-shadow 0.5s ease-in-out;
+  *,
+  *::before,
+  *::after {
+    transition: background-color 0.5s ease-in-out, border-color 0.5s ease-in-out,
+      color 0.5s ease-in-out, fill 0.5s ease-in-out, stroke 0.5s ease-in-out,
+      opacity 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
   }
 }
 
@@ -103,38 +99,38 @@
   :root {
     --background: 0 0% 100%;
     --foreground: 0 0% 3.9%;
-    --card: 0 0% 98%;                      /* Light card background */
-    --card-foreground: 0 0% 20%;           /* Card text */
-    --popover: 0 0% 98%;                   /* Popover background */
-    --popover-foreground: 0 0% 20%;        /* Popover text */
-    
+    --card: 0 0% 98%; /* Light card background */
+    --card-foreground: 0 0% 20%; /* Card text */
+    --popover: 0 0% 98%; /* Popover background */
+    --popover-foreground: 0 0% 20%; /* Popover text */
+
     /* Primary color (Orange) */
-    --primary: 30 100% 60%;                /* Bright Orange */
-    --primary-foreground: 0 0% 98%;        /* White text for primary */
-    
+    --primary: 30 100% 60%; /* Bright Orange */
+    --primary-foreground: 0 0% 98%; /* White text for primary */
+
     /* Secondary color (Yellow) */
-    --secondary: 60 100% 50%;              /* Bright Yellow */
-    --secondary-foreground: 0 0% 98%;      /* White text for secondary */
-    
+    --secondary: 38 87% 43%; /* Darker orange */
+    --secondary-foreground: 0 0% 98%; /* White text for secondary */
+
     /* Muted color (Light Blue) */
-    --muted: 200 100% 90%;                 /* Light Blue */
-    --muted-foreground: 0 0% 20%;          /* Darker text on muted background */
-    
+    --muted: 200 100% 90%; /* Light Blue */
+    --muted-foreground: 0 0% 20%; /* Darker text on muted background */
+
     /* Accent color (Gray) */
     --accent: 0 0% 96.1%;
     --accent-foreground: 0 0% 9%;
-    
+
     /* Destructive color (Orange-Red) */
-    --destructive: 0 80% 60%;              /* Orange-Red for danger */
-    --destructive-foreground: 0 0% 98%;    /* White text for destructive */
-    
+    --destructive: 0 80% 60%; /* Orange-Red for danger */
+    --destructive-foreground: 0 0% 98%; /* White text for destructive */
+
     /* Borders */
-    --border: 0 0% 80%;                    /* Light border */
-    --input: 0 0% 90%;                     /* Light input background */
-    
+    --border: 0 0% 80%; /* Light border */
+    --input: 0 0% 90%; /* Light input background */
+
     /* Ring color */
-    --ring: 30 100% 60%;                   /* Orange ring */
-    
+    --ring: 30 100% 60%; /* Orange ring */
+
     /* Radius */
     --radius: 0.75rem;
   }
@@ -142,35 +138,35 @@
   .dark {
     --background: 0 0% 3.9%;
     --foreground: 0 0% 98%;
-    --card: 0 0% 20%;                      /* Dark card background */
-    --card-foreground: 0 0% 98%;           /* Light text on dark card */
-    --popover: 0 0% 20%;                   /* Dark popover background */
-    --popover-foreground: 0 0% 98%;        /* Light popover text */
-    
+    --card: 0 0% 20%; /* Dark card background */
+    --card-foreground: 0 0% 98%; /* Light text on dark card */
+    --popover: 0 0% 20%; /* Dark popover background */
+    --popover-foreground: 0 0% 98%; /* Light popover text */
+
     /* Primary color (Orange) */
-    --primary: 30 100% 50%;                /* Darker orange */
-    --primary-foreground: 0 0% 98%;        /* White text for primary */
-    
+    --primary: 30 100% 50%; /* Darker orange */
+    --primary-foreground: 0 0% 98%; /* White text for primary */
+
     /* Secondary color (Yellow) */
-    --secondary: 33 87% 43%;               /* Darker orange */
-    --secondary-foreground: 0 0% 98%;      /* White text for secondary */
-    
+    --secondary: 33 87% 43%; /* Darker orange */
+    --secondary-foreground: 0 0% 98%; /* White text for secondary */
+
     /* Muted color (Light Blue) */
-    --muted: 200 100% 40%;                 /* Darker blue */
-    --muted-foreground: 0 0% 98%;          /* Light text on muted background */
-    
+    --muted: 200 100% 40%; /* Darker blue */
+    --muted-foreground: 0 0% 98%; /* Light text on muted background */
+
     --accent: 0 0% 14.9%;
     --accent-foreground: 0 0% 98%;
-    
+
     /* Destructive color (Orange-Red) */
-    --destructive: 0 80% 40%;              /* Darker orange-red */
-    --destructive-foreground: 0 0% 98%;    /* White text for destructive */
-    
+    --destructive: 0 80% 40%; /* Darker orange-red */
+    --destructive-foreground: 0 0% 98%; /* White text for destructive */
+
     /* Borders */
-    --border: 0 0% 30%;                    /* Darker border */
-    --input: 0 0% 20%;                     /* Dark input background */
-    
+    --border: 0 0% 30%; /* Darker border */
+    --input: 0 0% 20%; /* Dark input background */
+
     /* Ring color */
-    --ring: 30 100% 60%;                   /* Orange ring */
+    --ring: 30 100% 60%; /* Orange ring */
   }
 }

@@ -29,7 +29,7 @@ export default function Hero() {
             transition={{ duration: 1, delay: 0.2 }}
             className="mb-8"
           >
-            <h1 className="text-6xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary via-[hsl(var(--chart-1))] to-[hsl(var(--chart-2))] bg-clip-text">
+            <h1 className="text-6xl md:text-7xl md:mt-0 mt-[300px] font-bold mb-6 bg-gradient-to-r from-primary via-[hsl(var(--chart-1))] to-[hsl(var(--chart-2))] bg-clip-text ">
               創造夢想，挖掘機會
             </h1>
             <p className="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto">

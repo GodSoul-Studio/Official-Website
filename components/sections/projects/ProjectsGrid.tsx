@@ -11,6 +11,7 @@ const projects = [
     category: "開源項目",
     description: "一款專注於安全性的 2FA 驗證碼軟體，目標是為用戶提供高安全性的去中心化 Web3 和區塊鏈服務環境。",
     image: "https://res.cloudinary.com/dxlsbq2q8/image/upload/v1734160186/products/rtqrbfwegale9vobf7xp.png",
+    link: "https://github.com/Securibit/",
     tech: ["Flutter", "Firebase"],
   },
   {
@@ -18,7 +19,24 @@ const projects = [
     category: "開發軟體",
     description: "一款整合多種不用網路連線，離線也能玩的電腦遊戲整合軟體",
     image: "https://res.cloudinary.com/dxlsbq2q8/image/upload/v1734160185/products/mcgw7hjc4pkhdzyuxcic.png",
+    link: "https://github.com/GodSoul-Studio/KGameBox-alpha",
     tech: ["Electron"],
+  },
+  {
+    title: "DGS弦樂式—品牌網站",
+    category: "品牌網站",
+    description: "DGS弦樂式Discord機器人的第二代官方網站",
+    image: "https://res.cloudinary.com/dxlsbq2q8/image/upload/v1735464418/products/xmzifnhnifopozrc7rur.png",
+    link: "https://dgs-website.vercel.app/",
+    tech: ["React", "MasterCSS", "AOS", "Animate.css"],
+  },
+  {
+    title: "Rhythm—品牌網站",
+    category: "品牌網站",
+    description: "Rhythm這台Discord音樂機器人的官方網站",
+    image: "https://res.cloudinary.com/dxlsbq2q8/image/upload/v1735464419/products/l9i4omdlxnhcgp723mom.png",
+    link: "https://rhytemsire.vercel.app/",
+    tech: ["Vuejs", "AOS", "MasterCSS"],
   }
 ];
 
@@ -57,7 +75,7 @@ export function ProjectsGrid() {
               whileHover={{ y: -10 }}
               className="group"
             >
-              <Link href={`/projects/${project.title}`}>
+              <Link href={project.link}>
                 <Card className="overflow-hidden">
                   <div className="relative h-48">
                     <Image
